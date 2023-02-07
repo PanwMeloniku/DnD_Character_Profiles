@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appnav"
+    app:startDestination="@id/listOfProfiles">
+
+    <fragment
+        android:id="@+id/listOfProfiles"
+        android:name="com.example.dnd_character_profiles.main_page.ListOfProfiles"
+        android:label="fragment_list_of_profiles"
+        tools:layout="@layout/fragment_list_of_profiles" >
+        <action
+            android:id="@+id/action_listOfProfiles_to_details"
+            app:destination="@id/details" />
+    </fragment>
+    <fragment
+        android:id="@+id/details"
+        android:name="com.example.dnd_character_profiles.main_page.Details"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <action
+            android:id="@+id/action_details_to_listOfProfiles"
+            app:destination="@id/listOfProfiles"
+            app:popUpTo="@id/listOfProfiles"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

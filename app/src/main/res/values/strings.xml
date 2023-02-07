@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">DnD_Character_Profiles</string>
+    <string-array name="characterClasses">
+        <item>Wizzard</item>
+        <item>Rouge</item>
+        <item>Warrior</item>
+        <item>Palladin</item>
+        <item>Monk</item>
+        <item>Warlock</item>
+        <item>Bard</item>
+        <item>Cleric</item>
+        <item>Artificer</item>
+        <item>Barbarian</item>
+        <item>Blood Hunter</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="characterRaces">
+        <item>human</item>
+        <item>elf</item>
+        <item>dwarf</item>
+        <item>half-orc</item>
+        <item>half-elf</item>
+        <item>halfling</item>
+        <item>goblin</item>
+        <item>gnome</item>
+        <item>tiefling</item>
+        <item>tabaxi</item>
+        <item>goliath</item>
+        <item>Genasi</item>
+    </string-array>
+
+    <string-array name="characterLevel">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+</resources>
