@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">DnD_Character_Profiles</string>
     <string-array name="characterClasses">
-        <item>Wizzard</item>
+        <item>Wizard</item>
         <item>Rouge</item>
-        <item>Warrior</item>
-        <item>Palladin</item>
+        <item>Fighter</item>
+        <item>Paladin</item>
         <item>Monk</item>
         <item>Warlock</item>
         <item>Bard</item>
@@ -12,6 +12,7 @@
         <item>Artificer</item>
         <item>Barbarian</item>
         <item>Blood Hunter</item>
+        <item>Druid</item>
         <item>Custom</item>
     </string-array>
     <string-array name="characterRaces">
@@ -26,7 +27,7 @@
         <item>tiefling</item>
         <item>tabaxi</item>
         <item>goliath</item>
-        <item>Genasi</item>
+        <item>genasi</item>
     </string-array>
 
     <string-array name="characterLevel">

@@ -24,7 +24,7 @@ class ListOfProfiles : Fragment() {
         data = ArrayList()
         for (i in 1 .. 10)
         {
-            data.add(CharacterProfile("A_" + i.toString(), "human", "fighter", "12", ""))
+            data.add(CharacterProfile("A_" + i.toString(), "human", "Druid", "12", ""))
         }
     }
     override fun onCreateView(
